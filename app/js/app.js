@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		sliderTopStart.classList.add("animate__fadeInRight")   
 	}
 	buttonStartPanel.addEventListener("click", ()=>{
-		setTimeout(buttonStart, 1000);
+		setTimeout(buttonStart, 5000);
 	})
 
 
