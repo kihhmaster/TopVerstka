@@ -1,0 +1,111 @@
+//`@media (max-width: 1440px) { ...}
+@include media-breakpoint-down(xxl)
+	.top__slide--desc
+		max-width: 480px
+	.top__slide--title
+		font-size: 35px
+		line-height: 1.2
+	.top__slide--text
+		font-size: 22px
+	.button__startPanel
+		font-size: 14px
+	.sales__desc--title
+		font-size: 9px
+		font-weight: normal
+	.sales__desc--text
+		font-size: 10px
+	.sales__desc--item,.sales__desc--fon
+		width: 220px
+		height: 55px
+//`@media (max-width:  1200px) { ...}
+@include media-breakpoint-down(xl)
+	.sales__desc--text
+		line-height: 1.1
+		margin-top: 5px
+	.swiper-button-prev, .swiper-button-next
+		width: 60px
+		height: 60px
+		&::after
+			font-size: 20px
+			font-weight: 700
+	.top__slide--desc
+		max-width: 420px
+	.top__slide--title
+		font-size: 30px
+		line-height: 1.2
+	.top__slide--text
+		font-size: 18px
+	.button__startPanel
+		font-size: 12px
+//`@media (max-width: 992px) { ...}
+@include media-breakpoint-down(lg)
+	.sales__desc--text
+		font-size: 9px
+	.sales__desc--item,.sales__desc--fon
+		width: 190px
+		height: 55px
+	.sales__desc--img
+		margin-right: 8px
+	.button__top__slide--detail, .button__top__slide--sales
+		padding: 10px 35px
+	.swiper-button-prev, .swiper-button-next
+		width: 45px
+		height: 45px
+		&::after
+			font-size: 18px
+			font-weight: 700
+	.top__slide--title
+		font-size: 28px
+		line-height: 1.2
+	.top__slide--desc
+		max-width: 380px
+	.top__slide--text
+		font-size: 16px
+	.button__startPanel
+		font-size: 12px
+//`@media (max-width: 768px) { ...}
+@include media-breakpoint-down(md)
+	.top__slide--desc
+		left: 0
+		right: 0
+		margin: auto
+	.top__slide--buttons
+		margin-top: 20px
+	.button__top__slide--detail
+		margin-right: 0
+	.swiper-pagination
+		display: flex
+		justify-content: center
+		align-items: center
+	.swiper-button-prev, .swiper-button-next
+		display: none
+	.top__slide__sales--desc
+		display: none
+	.top__slide--desc
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-flow: column nowrap
+	.button__top__slide--sales
+		display: none
+	.top__slide--title, .top__slide--text
+		text-align: center
+	.swiper-pagination-bullet
+		width: 8px
+		height: 8px
+		background: none
+		border: 1px solid #000
+	.swiper-pagination-bullet-active
+		background: #000
+//`@media (max-width: 576px) { ...}
+@include media-breakpoint-down(sm)
+	.top__slide--buttons
+		margin-top: 10px
+	.top__slide--title
+		font-size: 18px
+	.top__slide--text
+		font-size: 10px
+		margin-top: 5px
+	.button__top__slide--detail
+		font-size: 10px
+		padding: 5px 15px

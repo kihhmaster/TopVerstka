@@ -1,0 +1,28 @@
+.button
+	display: inline-block
+	border: none
+	color: #fff
+	text-decoration: none
+	text-transform: uppercase
+	background-color: $accent
+	padding: 15px 45px
+	font-size: 16px
+	font-weight: 400
+	border-radius: 4px
+	text-align: center
+	position: relative
+	outline: none
+	transition: background-color .1s ease
+	cursor: pointer
+		left: 0
+	&:focus, &:hover
+		text-decoration: none
+		color: #fff
+	&:hover
+		background-color: lighten($accent, 5%)
+		&::after
+			opacity: .22
+	&:active
+		background-color: darken($accent, 5%)
+		&::after
+			opacity: .32
