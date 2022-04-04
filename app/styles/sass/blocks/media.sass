@@ -1,7 +1,7 @@
 //`@media (max-width: 1440px) { ...}
 @include media-breakpoint-down(xxl)
 	.top__slide--desc
-		max-width: 480px
+		max-width: 460px
 	.top__slide--title
 		font-size: 35px
 		line-height: 1.2
@@ -39,6 +39,11 @@
 		font-size: 12px
 //`@media (max-width: 992px) { ...}
 @include media-breakpoint-down(lg)
+	.top__slide--desc
+		max-width: 340px
+	.top__slide--title
+		font-size: 26px
+		line-height: 1.2
 	.sales__desc--text
 		font-size: 9px
 	.sales__desc--item,.sales__desc--fon
@@ -47,18 +52,17 @@
 	.sales__desc--img
 		margin-right: 8px
 	.button__top__slide--detail, .button__top__slide--sales
-		padding: 10px 35px
+		padding: 8px 25px
+		font-size: 14px
 	.swiper-button-prev, .swiper-button-next
-		width: 45px
-		height: 45px
+		width: 40px
+		height: 40px
 		&::after
 			font-size: 18px
 			font-weight: 700
 	.top__slide--title
 		font-size: 28px
 		line-height: 1.2
-	.top__slide--desc
-		max-width: 380px
 	.top__slide--text
 		font-size: 16px
 	.button__startPanel
